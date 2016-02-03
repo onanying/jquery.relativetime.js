@@ -55,6 +55,7 @@
                 var txt = f.replace("%d", parseInt(v));
                 return parseInt(absond)>0?options.past.replace("%s", txt):options.future.replace("%s", txt);
             };
+            
             return this.format(timestr);
         };
         
