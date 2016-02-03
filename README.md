@@ -11,8 +11,8 @@
 
 ```js
 <div class="list-time">2016-02-28 08:49:03</div>
-<script type="text/javascript" src="<?php echo $base_url; ?>js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="<?php echo $base_url; ?>js/jquery.relativetime.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.relativetime.js"></script>
 <script type="text/javascript">
 	$(".list-time").relativeTime();
 </script>
@@ -21,8 +21,8 @@
 ### 传值返回转换后的结果
 
 ```js
-<script type="text/javascript" src="<?php echo $base_url; ?>js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="<?php echo $base_url; ?>js/jquery.relativetime.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.relativetime.js"></script>
 <script type="text/javascript">
 	var timestr = $.relativeTime('2016-02-28 08:49:03');
 	console.log(timestr);
