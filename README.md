@@ -13,7 +13,7 @@
 
 ### 选择元素后直接转换
 
-```js
+```javascript
 <div class="list-time">2016-02-28 23:49:03</div>
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.relativetime.js"></script>
@@ -24,7 +24,7 @@
 
 ### 传值返回转换后的结果
 
-```js
+```javascript
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.relativetime.js"></script>
 <script type="text/javascript">
@@ -35,7 +35,7 @@
 
 ### 自定义配置
 
-```js
+```javascript
 $.relativeTime.options = {
     future : "in %s",
     past : "%s ago",
