@@ -7,7 +7,7 @@
 
 	时间必须为24小时制，日期使用“-”分隔，例如：2016-02-28 23:49:03
 
-### 选择元素后直接转换 (sample 1)
+### 选择元素后直接转换 (Sample 1)
 
 ```javascript
 <div class="list-time">2016-02-28 23:49:03</div>
@@ -18,7 +18,7 @@
 </script>
 ```
 
-### 传值返回转换后的结果 (sample 2)
+### 传值返回转换后的结果 (Sample 2)
 
 ```javascript
 <script type="text/javascript" src="/js/jquery.min.js"></script>
@@ -29,7 +29,7 @@
 </script>
 ```
 
-### 自定义配置 (sample 3)
+### 自定义配置 (Sample 3)
 
 ```javascript
 $.relativeTime.options = {
