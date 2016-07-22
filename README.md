@@ -1,17 +1,13 @@
-﻿## 项目简介
+﻿## jquery.relativetime.js
 
-一个将日期时间转换为相对时间(几年/几月/几日/几周/几小时-前/后)的jquery插件，超轻量级，只做转换这一件事情。
+将日期时间转换为几秒前，几分钟前，几小时前，几天前，几月前，几年前的jquery插件，超轻量级，只做转换这一件事情
 
 
-## 使用范例
-
-工作中常用的一些使用场景的范例
-
-### 日期时间格式
+### 日期时间格式 (Time format)
 
 	时间必须为24小时制，日期使用“-”分隔，例如：2016-02-28 23:49:03
 
-### 选择元素后直接转换
+### 选择元素后直接转换 (sample 1)
 
 ```javascript
 <div class="list-time">2016-02-28 23:49:03</div>
@@ -22,7 +18,7 @@
 </script>
 ```
 
-### 传值返回转换后的结果
+### 传值返回转换后的结果 (sample 2)
 
 ```javascript
 <script type="text/javascript" src="/js/jquery.min.js"></script>
@@ -33,7 +29,7 @@
 </script>
 ```
 
-### 自定义配置
+### 自定义配置 (sample 3)
 
 ```javascript
 $.relativeTime.options = {
