@@ -24,7 +24,7 @@
 
             // 计算相对时间
             this.format = function( timestr ) {
-                var time = new Date(timestr.replace('-', '/')).getTime();
+                var time = new Date(timestr.substr(0, 4), (timestr.substr(5, 2) - 1), timestr.substr(8, 2), timestr.substr(11, 2), timestr.substr(14, 2), timestr.substr(17, 2)).getTime();
                 var now = new Date().getTime();
                 var absond = parseInt((now-time)/1000);
                 var abs = Math.abs(absond);
