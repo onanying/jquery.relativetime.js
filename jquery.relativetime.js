@@ -26,7 +26,7 @@
             this.format = function( timestr ) {
                 var time = new Date(timestr.substr(0, 4), (timestr.substr(5, 2) - 1), timestr.substr(8, 2), timestr.substr(11, 2), timestr.substr(14, 2), timestr.substr(17, 2)).getTime();
                 var now = new Date().getTime();
-                var absond = parseInt((now-time)/1000);
+                var absond = parseInt((now-time) / 1000);
                 var abs = Math.abs(absond);
                 var v = abs;
                 var f = options.ss;
@@ -53,12 +53,12 @@
                     f = options.yy;
                 }
                 var txt = f.replace("%d", parseInt(v));
-                return parseInt(absond)>0?options.past.replace("%s", txt):options.future.replace("%s", txt);
+                return parseInt(absond) > 0 ? options.past.replace("%s", txt) : options.future.replace("%s", txt);
             };
-            
+
             return this.format(timestr);
         };
-        
+
         // 选择元素后调用
         $.fn.extend({
             "relativeTime" : function() {
